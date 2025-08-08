@@ -1,12 +1,20 @@
 
 class mr(object):
-    PROGRESS_BAR = """\n
+    PROGRESS_BAR = """<b>
 ╭━━━━❰ᴘʀᴏɢʀᴇss ʙᴀʀ❱━➣
-┣⪼ 🗂️ : {1} | {2}
-┣⪼ ⏳️ : {0}%
-┣⪼ 🚀 : {3}/s
-┣⪼ ⏱️ : {4}
-╰━━━━━━━━━━━━━━━➣ """
+
+┃    🗂️ ᴄᴏᴍᴘʟᴇᴛᴇᴅ: {1}
+
+┃    📦 ᴛᴏᴛᴀʟ ꜱɪᴢᴇ: {2}
+
+┃    🔋 ꜱᴛᴀᴛᴜꜱ: {0}%
+
+┃    🚀 ꜱᴘᴇᴇᴅ: {3}/s
+
+┃    ⏰ ᴇᴛᴀ: {4}
+
+╰━━━━━━━━━━━━━━━━➣
+</b>"""
 
     ABOUT_TXT = """
 ╭───────────⍟
@@ -16,8 +24,9 @@ class mr(object):
 ├📕 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├✏️ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : <a href=https://www.python.org>Python 3</a>
 ├💾 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴 : <a href=https://cloud.mongodb.com>MongoDB</a>
-├🌀 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href=https://dashboard.render.com>Render</a>
-├📊 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚄𝚂 : v3.6.8 [ 𝙼𝙰𝙹𝙾𝚁 ]              
+├🌀 𝙼𝚈 𝚂𝙴𝚁𝚅𝙴𝚁 : <a href=https://aws.amazon.com/>AWS</a>
+├🌋 𝙾𝚆𝙽𝙴𝚁 : <a href=https://t.me/xspes/>NAm</a>
+├📊 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚄𝚂 : v3.6.9 [ 𝙼𝙰𝙹𝙾𝚁 ]              
 ╰───────────────⍟
                                 """
     HELP_TXT = """
