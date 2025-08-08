@@ -60,6 +60,63 @@
 
 
 
+### 🌋 VPS DEPLOY 
+
+ * Clone the Repo.
+
+```
+git clone https://github.com/yuIlariy/RENAME-PRO
+```
+ * Move to the Repo Folder in the VPS.
+
+```
+cd RENAME-PRO
+```
+ * Inside the cloned folder edit config.py and install the pip, by the following command.
+
+```
+sudo apt install python3-pip
+```
+
+ * Make sure you update your directory once you installed pip
+ ```
+ sudo apt update && apt upgrade -y
+ ```
+ 
+ * Install the required modules using the following command. You may need a virtual environment.
+
+```bash
+python3 -m venv rena
+source rena/bin/activate
+```
+
+```
+pip3 install -r requirements.txt
+```
+
+ * If you want to run the bot 24x7, then use this command to create a nested background environment.
+
+```bash
+screen -S rena
+```
+```bash
+python3 bot.py
+```
+
+Detach: `Ctrl + A`, then `Ctrl + D`  
+
+Resume: 
+```bash
+screen -r rena
+```
+Stop: `Ctrl + C`, then 
+```bash
+screen -S rena -X quit
+```
+
+
+
+
 ### 🥰 FEATURES
  - Renames very fast .
  - Support 4Gb Rename With Upgrade PLan .
