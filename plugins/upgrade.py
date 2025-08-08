@@ -23,9 +23,9 @@ async def upgrade(bot,update):
 	Pay Using Upi I'd `hxbots@sbi`
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @Kirodewal"""
+        Payment To Admin @xspes"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/kirodewal")], 
+        			InlineKeyboardButton("Admin",url = "https://t.me/xspes")], 
         			[InlineKeyboardButton("Phone Pay",url = "https://upayme.vercel.app/Hxbots@sbi"),
         			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://upayme.vercel.app/Hxbots@sbi")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
@@ -53,9 +53,9 @@ async def upgradecm(bot,message):
 	Pay Using Upi I'd `HxBots@sbi`
 	
 	After Payment Send Screenshots Of 
-        Payment To Admin @Kirodewal"""
+        Payment To Admin @xspes"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("Admin",url = "https://t.me/kirodewal")], 
+        			InlineKeyboardButton("Admin",url = "https://t.me/xspes")], 
         			[InlineKeyboardButton("Phone Pay",url = "https://upayme.vercel.app/Hxbots@sbi"),
         			InlineKeyboardButton("Paytm Wallet/UPI",url = "https://upayme.vercel.app/Hxbots@sbi")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
